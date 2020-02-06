@@ -1,0 +1,4 @@
+﻿;******英文受信練習*******
+;**Convention of the I.T.U.*****
+;****chapter 5 , article 40 , 505-2
+hr hr [bt] private telegrams in secret language may be admitted between all member states with the exception of those which have previously notified, through the secretary-general, that they do not admit this language for that category of correspondence. [ar]

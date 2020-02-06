@@ -1,0 +1,4 @@
+﻿;******英文受信練習*******
+;**Convention of the I.T.U.*****
+;****chapter 5 , article 39 , 501-1
+hr hr [bt] stations performing radiocommunication in the mobile service shall be bound, within the limits of their nomal employment, to exchange radiocommunications reciprocally without distinction as to the radio system adopted by them. [ar]

@@ -1,0 +1,26 @@
+﻿;**********ＣＷ一週間マスター***********
+;------第一日目　単語の書取----------
+#FileWord
+  NEAT
+  TEA
+  EAT
+  TEN 
+  ANT 
+  ANTENNA
+  ANAT
+  TENT
+  ANTE
+  TENANT
+  ENTENTE
+  ENT
+  EATEN
+  ETA
+  NAT
+  TEAT
+  TEEN 
+
+
+
+
+
+

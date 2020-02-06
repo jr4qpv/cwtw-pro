@@ -1,0 +1,4 @@
+﻿;******英文受信練習*******
+;**Constitution of the I.T.U.*****
+;****chapter 6 , article 38 , 186-1
+hr hr [bt] member states shall take such steps as may be necessary to ensure the establishment, under the best technical conditions, of the channels and installations necessary to carry on the rapid and uninterrupted exchange of international telecommunications. [ar] 

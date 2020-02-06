@@ -1,0 +1,4 @@
+﻿;******英文受信練習*******
+;**Constitution of the I.T.U.*****
+;****chapter 6 , article 38 , 189-4
+hr hr [bt] unless other conditions are laid down by special arrangements, each member state shall take such steps as may be necessary to ensure maintenance of those sections of international telecommunication circuits within its control. [ar]

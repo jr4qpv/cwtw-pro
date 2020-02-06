@@ -1,0 +1,4 @@
+﻿;*** 受信練習(文字ランダム)のｻﾝﾌﾟﾙ2 ***
+;（出現頻度の多い文字を重複指定した例）
+#FileChar
+AAAAABCDEEEEFGHIIIJKLMNOOOPQRSTUVWXYZ

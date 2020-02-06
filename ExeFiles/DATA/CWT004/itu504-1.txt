@@ -1,0 +1,5 @@
+﻿;******英文受信練習*******
+;**Convention of the I.T.U.*****
+;****chapter 5 , article 40 , 504-1
+hr hr [bt] government telegrams and service telegrams may be expressed in secret language in all relations. [ar]
+

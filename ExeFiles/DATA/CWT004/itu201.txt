@@ -1,0 +1,4 @@
+﻿;******英文受信練習*******
+;**Constitution of the I.T.U.*****
+;****chapter 7 , article 47 , 201
+hr hr [bt] member states agree to take the steps required to prevent the transmission or circulation of false or deceptive distress, urgency, safety or identification signals, and to collaborate in locating and identifying stations under their jurisdiction transmitting such signals. [ar]

@@ -1,0 +1,24 @@
+﻿;***********徒然草　ランダム******
+;*******欠番は文が短いため省略してあります。*********
+;********
+#fileRand
+TSURE-0.cwt
+TSURE-1.cwt
+TSURE-2.cwt
+TSURE-3.cwt
+TSURE-5.cwt
+TSURE-6.cwt
+TSURE-7.cwt
+TSURE-8.cwt
+TSURE-9.cwt
+TSURE-10.cwt
+TSURE-11.cwt
+TSURE-12.cwt
+TSURE-13.cwt
+TSURE-14.cwt
+TSURE-15.cwt
+TSURE-18.cwt
+TSURE-19.cwt
+TSURE-21.cwt
+
+

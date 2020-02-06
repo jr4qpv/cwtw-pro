@@ -1,0 +1,4 @@
+﻿;******英文受信練習*******
+;**Constitution of the I.T.U.*****
+;****chapter 7 , article 45 , 197-1
+hr hr [bt] all stations, whatever their purpose, must be established and operated in such a manner as not to cause harmful interference to the radio services or communications of other member states or of recognized operating agencies, or of other duly authorized operating agencies which carry on a radio service, and which operate in accordance with the provisions of the radio regulations. [ar]

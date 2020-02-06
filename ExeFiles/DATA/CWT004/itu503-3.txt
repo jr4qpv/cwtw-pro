@@ -1,0 +1,5 @@
+﻿;******英文受信練習*******
+;**Convention of the I.T.U.*****
+;****chapter 5 , article 39 , 503-3
+hr hr [bt] notwithstanding the provisions of no. 501 above, a station may be assigned to a restricted international service of telecommunication, determined by the purpose of such service, or by other circumstances independent of the system used. [ar]
+

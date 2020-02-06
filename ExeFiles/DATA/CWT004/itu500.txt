@@ -1,0 +1,5 @@
+﻿;******英文受信練習*******
+;**Convention of the I.T.U.*****
+;****chapter 5 , article 38 , 500
+hr hr [bt] in the absence of special arrangements concluded between member states, the monetary unit to be used in the composition of accounting rates for international telecommunication services and in the establishment of international accounts shall be either the monetary unit of the international monetary fund or the gold franc, both as defined in the administrative regulations. the provisions for application are contained in appendix 1 to the international telecommunication regulations. [ar]
+

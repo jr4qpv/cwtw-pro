@@ -1,0 +1,4 @@
+﻿;******英文受信練習*******
+;**Convention of the I.T.U.*****
+;****chapter 5 , article 40 , 506-3
+hr hr [bt] member states which do not admit private telegrams in secret language originating in or destined for their own territory must let them pass in transit, except in the case of suspension of service provided for in article 35 of the constitution. [ar]

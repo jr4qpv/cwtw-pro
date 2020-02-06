@@ -1,0 +1,4 @@
+﻿;******英文受信練習*******
+;**Constitution of the I.T.U.*****
+;****chapter 7 , article 48 , 203-2
+hr hr [bt] nevertheless, these installations must, so far as possible, observe statutory provisions relative to giving assistance in case of distress and to the measures to be taken to prevent harmful interference, and the provisions of the administrative regulations concerning the types of emission and the frequencies to be used, according to the nature of the service performed by such installations. [ar]

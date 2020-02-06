@@ -1,0 +1,5 @@
+﻿;******英文受信練習*******
+;**Convention of the I.T.U.*****
+;****chapter 5 , article 39 , 502-2
+hr hr [bt] nevertheless, in order not to impede scientific progress, the provisions of No. 501 above shall not prevent the use of a radio system incapable of communicating with other systems, provided that such incapacity is due to the specific nature of such system and is not the result of devices adopted solely with the object of preventing intercommunication. [ar]
+

@@ -1,0 +1,5 @@
+﻿;******英文受信練習*******
+;**Constitution of the I.T.U.*****
+;****chapter 6 , article 40 , 191
+hr hr [bt] international telecommunication services must give absolute priority to all telecommunications concerning safety of life at sea, on land, in the air or in outer space, as well as to epidemiological telecommunications of exceptional urgency of the world health organization. [ar]
+

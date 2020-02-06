@@ -1,0 +1,4 @@
+﻿;******英文受信練習*******
+;**Constitution of the I.T.U.*****
+;****chapter 7 , article 44 , 195-1
+hr hr [bt] members shall endeavour to limit the number of frequencies and the spectrum used to the minimum essential to provide in a satisfactory manner the necessary services. to that end, they shall endeavour to apply the latest technical advances as soon as possible. [ar]

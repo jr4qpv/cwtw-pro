@@ -1,0 +1,4 @@
+﻿;******英文受信練習*******
+;**Constitution of the I.T.U.*****
+;****chapter 6 , article 42 , 193
+hr hr [bt] member states reserve for themselves, for the operating agencies recognized by them and for other agencies duly authorized to do so, the right to make special arrangements on telecommunication matters which do not concern member states in general. such arrangements, however, shall not be in conflict with the terms of this constitution, of the convention or of the administrative regulations, so far as concerns the harmful interference which their operation might cause to the radio services of other member states, and in general so far as concerns the technical harm which their operation might cause to the operation of other telecommunication services of other member states. [ar]
