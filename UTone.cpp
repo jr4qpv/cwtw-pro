@@ -38,14 +38,14 @@ DIRSOUND *DSnd;
 #define	KANA_ON_DATA		7
 #define	KANA_OFF_DATA		8
 
-DECODE termdata	= {0, TERMINATE_DATA};
-DECODE renzoku1 = {0, RENZOKU_ON_DATA};
-DECODE renzoku0 = {0, RENZOKU_OFF_DATA};
-DECODE newline  = {0, NEWLINE_DATA};
-DECODE lapstart = {0, LAPSTART_DATA};
-DECODE lapstop  = {0, LAPSTOP_DATA};
-DECODE kana_on	= {0, KANA_ON_DATA};
-DECODE kana_off	= {0, KANA_OFF_DATA};
+DECODE termdata	= {0, TERMINATE_DATA, 0};
+DECODE renzoku1 = {0, RENZOKU_ON_DATA, 0};
+DECODE renzoku0 = {0, RENZOKU_OFF_DATA, 0};
+DECODE newline  = {0, NEWLINE_DATA, 0};
+DECODE lapstart = {0, LAPSTART_DATA, 0};
+DECODE lapstop  = {0, LAPSTOP_DATA, 0};
+DECODE kana_on	= {0, KANA_ON_DATA, 0};
+DECODE kana_off	= {0, KANA_OFF_DATA, 0};
 
 #define __max(a,b) (((a) > (b)) ? (a) : (b))
 #define __min(a,b) (((a) < (b)) ? (a) : (b))
@@ -385,18 +385,18 @@ void TONESTM::ToneTime(void)
 			case RENZOKU_ON_DATA:
 				renzoku = 1;
 				if (!CwDisp_mode)
-					Post_ToneMsg('[');
+					Post_ToneMsg(L'[');
 				continue;
 			case RENZOKU_OFF_DATA:
             	renzoku = 0;
 				tcode = 0;
 				mode = 0;
 				if (!CwDisp_mode)
-					Post_ToneMsg(']');
+					Post_ToneMsg(L']');
 				break;
 			case NEWLINE_DATA:
 				mode = 4;
-				Post_ToneMsg('\n');
+				Post_ToneMsg(L'\n');
 				return;
 			case LAPSTART_DATA:
 				unitcount = 0;
@@ -440,7 +440,7 @@ void TONESTM::ToneTime(void)
 		else if (cnt == (DOT_UNIT+1)) {	// 2
 			cw_off(1);
 			if (CwDisp_mode)
-				Post_ToneMsg('･');
+				Post_ToneMsg(L'･');
 			break;						// 次の符号へ
 		}
 		else {
@@ -455,7 +455,7 @@ void TONESTM::ToneTime(void)
 		else if (cnt == (BAR_UNIT+1)) {	// 4
 			cw_off(2);
 			if (CwDisp_mode)
-				Post_ToneMsg('-');
+				Post_ToneMsg(L'-');
 			break;						// 次の符号へ
 		}
 		else {
@@ -465,7 +465,7 @@ void TONESTM::ToneTime(void)
 	case 3:								// 語間(空白)
 		if (cnt == (WORD_SPAN-(CHAR_SPAN*2)+1)) {	// 2
 			if (CwDisp_mode)
-				Post_ToneMsg(' ');
+				Post_ToneMsg(L' ');
         	break;						// 次の符号へ
         }
 		else {
@@ -487,7 +487,7 @@ void TONESTM::ToneTime(void)
 			mode = -1;					// 次文字の処理へ
 			if (tcode) {
 				if (CwDisp_mode)
-					Post_ToneMsg(' ');
+					Post_ToneMsg(L' ');
 				else
 					Post_ToneMsg(tcode);
 			}
@@ -628,10 +628,10 @@ void TONESTM::KeyTime(void)
 			datap = CWtbl->search_data(j_mode, data);
 			if (datap) {
 				if (datap->cod2 != 0) {
-					Post_ToneMsg('[');
+					Post_ToneMsg(L'[');
 					Post_ToneMsg(datap->code);
 					Post_ToneMsg(datap->cod2);
-					Post_ToneMsg(']');
+					Post_ToneMsg(L']');
 				}
 				else {
 					Post_ToneMsg(datap->code);
@@ -658,11 +658,11 @@ void TONESTM::KeyTime(void)
 		}
 
         if (cnt == unit*5)
-			Post_ToneMsg(' ');
+			Post_ToneMsg(L' ');
 
 		if (autocr_mode != 0) {				 // 自動改行指定?
         	if (cnt == unit * autocr_mode)
-				Post_ToneMsg('\n');
+				Post_ToneMsg(L'\n');
 		}
 
         break;								// Onまで待つ
@@ -682,12 +682,12 @@ void TONESTM::KeyTime(void)
             if (cnt > unit*2) {
             	data += 2;					// 長点
 				if (CwDisp_mode)
-					Post_ToneMsg('-');
+					Post_ToneMsg(L'-');
             }
             else {
            		data += 1;					// 短点
 				if (CwDisp_mode)
-					Post_ToneMsg('･');
+					Post_ToneMsg(L'･');
 			}
 
 			cnt = 0;
@@ -707,7 +707,7 @@ void TONESTM::KeyTime(void)
 			cnt = 0;
 			mode = 5;
 			if (CwDisp_mode)
-				Post_ToneMsg('･');
+				Post_ToneMsg(L'･');
         }
 		break;
 
@@ -723,7 +723,7 @@ void TONESTM::KeyTime(void)
 			cnt = 0;
 			mode = 5;
 			if (CwDisp_mode)
-				Post_ToneMsg('-');
+				Post_ToneMsg(L'-');
         }
 		break;
 

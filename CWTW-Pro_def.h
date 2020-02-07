@@ -10,8 +10,8 @@
 //---------------------------------------------------------------------------
 static String ProTitle = "CWTW-Pro";				// 送信あり版タイトル
 static String FreeTitle= "CWTW";					// 受信のみ版タイトル
-static String Revcode  = "Rev3.00";					// バージョンコード
-static String Revdate  = "2020/02/05";
+static String Revcode  = "Rev3.01";					// バージョンコード
+static String Revdate  = "2020/02/07";
 
 #define	LICENSE_FNAME	"License.txt"
 #define	DOCUMENT_FNAME	"CWTW-Pro.txt"
@@ -127,5 +127,8 @@ static String Revdate  = "2020/02/05";
 ;! ・コンパイル環境を「C++Builder Community Edition 10.3」に移行しソース公開。
 ;! ・内部処理言語コードをUnicodeへ変更対応。
 ;! ・入力ファイルの文字コードはUTF-8(BOM付)に変更。（ヰヱ文字記述にも対応）
+;!《Rev3.01 　2020/02/07》
+;! ・符号表示に設定した時に文字化けするバグ修正。
+;! ・サンプルデータのファイル名記述を".txt"に修正。
 ;!
 #endif
