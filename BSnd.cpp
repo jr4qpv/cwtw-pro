@@ -86,7 +86,7 @@ void __fastcall BEEPSOUND::Stop(void)
 		asm {
 			mov	dx,61h;
 			in	al,dx;
-			and	al,0ECh;
+			and	al,0FCh;
 			out	dx,al;
 		}
 		break;
